@@ -13,7 +13,7 @@ const LayoutComp = ({ children }) => {
         Issue Finder <span style={{ fontSize: 15, color: '#bbb' }}>v1.0</span>
       </Header>
       <Content style={{ padding: '0 50px' }}>
-        <div style={{ background: '#fff', padding: 24, height: '95vh' }}>
+        <div style={{ background: '#FFF', padding: 24, height: '85vh', overflow: 'scroll' }}>
           {children}
         </div>
       </Content>
