@@ -1,12 +1,14 @@
 import React from 'react';
 
-import { Button } from 'antd';
+import SelectIssue from './SelectIssue';
+import SelectedIssue from './SelectedIssue'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Button type="primary">Button</Button>
+      <SelectIssue />
+      <SelectedIssue />
     </div>
   );
 }
