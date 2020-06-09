@@ -13,6 +13,6 @@ The app is deployed here:[https://issue-finder.cod3a.com/](https://issue-finder.
 ![alt text](https://github.com/ealipio/react-issues/blob/master/demo.jpg?raw=true)
 
 ## Links:
-https://help.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests
-https://ant.design/components/select/
-https://developer.github.com/v3/issues/#list-repository-issues
+* https://help.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests
+* https://ant.design/components/select/
+* https://developer.github.com/v3/issues/#list-repository-issues
