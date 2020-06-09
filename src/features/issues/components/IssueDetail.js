@@ -5,7 +5,7 @@ import { Comment, Tooltip, Avatar } from 'antd';
 import * as moment from 'moment';
 
 import { selector as issuesSelector } from '..';
-import Labels from './Labels';
+import Labels from '../../../shared/Labels';
 
 const SelectedIssue = () => {
   const { issues } = useSelector((state) => issuesSelector(state));

@@ -9,7 +9,7 @@ import {
   actionCreators as issuesActions,
   selector as issuesSelector,
 } from '../';
-import Labels from './Labels';
+import Labels from '../../../shared/Labels';
 
 const SelectIssue = () => {
   const { issues } = useSelector((state) => issuesSelector(state));
@@ -35,7 +35,12 @@ const SelectIssue = () => {
   return (
     <Select
       showSearch
-      style={{ width: '80%', margin: 50, textAlign:'left' }}
+      style={{
+        width: '80%',
+        margin: 50,
+        fontSize: 20,
+        textAlign: 'left',
+      }}
       allowClear
       autoFocus
       placeholder="Search issue"
