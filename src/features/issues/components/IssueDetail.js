@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { useSelector } from 'react-redux';
+import _get from 'lodash/get';
 import { Comment, Tooltip, Avatar } from 'antd';
 import * as moment from 'moment';
 
@@ -9,7 +10,7 @@ import Labels from '../../../shared/Labels';
 
 const SelectedIssue = () => {
   const { issues } = useSelector((state) => issuesSelector(state));
-  const isIssueSelected = issues.currentIssue.user;
+  const isIssueSelected = _get(issues, 'currentIssue.user', false);
   return isIssueSelected ? (
     <>
       <Comment
