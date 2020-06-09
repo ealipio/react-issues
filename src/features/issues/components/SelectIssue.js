@@ -27,7 +27,7 @@ const SelectIssue = () => {
 
   const handleSearchChange = debounce((query) => {
     dispatch(issuesActions.search({ query }));
-  }, 250);
+  }, 700);
   const handleChange = (value) => {
     const [issue] = issues.list.filter((i) => i.id === value);
     dispatch(issuesActions.setCurrentIssue({ issue }));
@@ -35,7 +35,7 @@ const SelectIssue = () => {
   return (
     <Select
       showSearch
-      style={{ width: '80%', margin: 50 }}
+      style={{ width: '80%', margin: 50, textAlign:'left' }}
       allowClear
       autoFocus
       placeholder="Search issue"
