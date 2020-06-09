@@ -1,6 +1,7 @@
 ## Issue Finder
-Find issues in the react repositoy https://github.com/facebook/react/issues
-the app is deployed here:[https://issue-finder.cod3a.com/](https://issue-finder.cod3a.com/)
+> Find issues in the react repositoy https://github.com/facebook/react/issues
+
+The app is deployed here:[https://issue-finder.cod3a.com/](https://issue-finder.cod3a.com/)
 
 ### How to use:
 1. clone the repo
