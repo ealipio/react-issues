@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import { Comment, Tooltip, Avatar } from 'antd';
 import * as moment from 'moment';
 
-import { selector as issuesSelector } from '../features/issues';
+import { selector as issuesSelector } from '..';
 import Labels from './Labels';
 
 const SelectedIssue = () => {

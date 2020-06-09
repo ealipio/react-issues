@@ -1,14 +1,13 @@
 import React from 'react';
 
-import SelectIssue from './SelectIssue';
-import SelectedIssue from './SelectedIssue'
-import './App.css';
+import SelectIssue from '../features/issues/components/SelectIssue';
+import IssueDetail from '../features/issues/components/IssueDetail'
 
 function App() {
   return (
-    <div className="App">
+    <div style={{textAlign:'center'}}>
       <SelectIssue />
-      <SelectedIssue />
+      <IssueDetail />
     </div>
   );
 }

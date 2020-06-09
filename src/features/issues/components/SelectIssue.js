@@ -8,7 +8,7 @@ import * as moment from 'moment';
 import {
   actionCreators as issuesActions,
   selector as issuesSelector,
-} from '../features/issues';
+} from '../';
 import Labels from './Labels';
 
 const SelectIssue = () => {
