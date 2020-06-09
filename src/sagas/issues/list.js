@@ -6,7 +6,7 @@ import { actionTypes as issuesActions } from '../../features/issues';
 export default function* tryUsersList({ query }) {
   try {
     if (query) {
-      const URL = `https://api.github.com/search/issues?q=${query}+repo:facebook/react`;
+      const URL = `https://api.github.com/search/issues?q=${encodeURIComponent(query)}+in:title+repo:facebook/react`;
       const response = yield call(fetch, URL);
       const data = yield call([response, 'json']);
 
